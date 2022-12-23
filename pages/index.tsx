@@ -1,7 +1,7 @@
 export default function Home() {
   return (
     <>
-      <div className="bg-gray-100 dark:bg-gray-800 m-6 h-screen">
+      <div className="bg-gray-100 dark:bg-gray-800 m-6 h-screen ">
         <h1 className="text-gray-700 dark:text-gray-300 hover:text-blue-700 hover:underline">
           Hello TailwindCSS
         </h1>
