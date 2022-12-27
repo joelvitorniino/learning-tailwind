@@ -1,21 +1,23 @@
-import styles from '../styles/Home.module.css'
 
 export default function Home() {
   return (
     <>
-      <div className="bg-gray-100 dark:bg-gray-800 m-6 h-screen">
-        <h1 className="text-gray-700 dark:text-gray-300 hover:text-blue-700 hover:underline">
-          Hello TailwindCSS
-        </h1>
+      <div className="bg-gray-50 container mx-auto px-4 py-8 dark:bg-gray-800">
+        <h6 className="dark:text-gray-50 font-bold mb-2">Componente Card</h6>
+        
+        <div className="bg-white dark:bg-gray-700 rounded-lg shadow-md overflow-hidden">
+          <div className="w-full bg-gray-100 dark:bg-gray-900 p-4 border-b border-gray-200 dark:border-gray-500">
+            <h4 className="font-bold dark:text-gray-50">Topo</h4>
+          </div>
 
-        <h1 className={styles.laravue}>A</h1>
+          <div className="p-4 dark:text-gray-50">
+            Lorem ipsum dolor sit amet, constectur adipiscing elit. Alias
+          </div>
 
-        <div className="group w-72 bg-brand-100 p-4">
-          <h4 className="font-bold group-hover:text-blue-300">Titulo do meu Card</h4>
-          <p className="text-gray-500 group-hover:text-gray-800 text-sm">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+          <div className="w-full dark:text-gray-50 bg-gray-50 dark:bg-gray-500 p-3 border-t border-gray-100 dark:border-gray-500">
+            Rodapé
+          </div>
         </div>
-        <br />
-        <input type="text" className="bg-brand-400 hover:bg-gray-200 text-lg px-4 py-2 focus:text-red-300 border border-brand-200" />
       </div>
     </>
   )
