@@ -3,7 +3,41 @@ export default function Home() {
     <>
       <div className="bg-gray-50 container mx-auto px-4 py-8 space-y-8">
       <div>
-        <h6 className="dark:text-gray-50 font-bold mb-2">Componente Badge/Tag</h6>
+        <h6 className="font-bold mb-2">Componente Input</h6>
+        <div className="space-y-4">
+          <input 
+            type="text" 
+            placeholder="Digite seu nome"
+            className="w-full bg-gray-50 border border-gray-300 focus:border-blue-500 rounded px-2 py-1 text-sm text-gray-800 placeholder-gray-300 focus:outline-none" 
+          />
+        
+          <input 
+            type="text" 
+            placeholder="Digite seu nome"
+            className="w-full bg-gray-50 border border-gray-300 focus:border-blue-500 rounded px-3 py-2 text-base text-gray-800 placeholder-gray-300 focus:outline-none" 
+          />
+
+          <input 
+            type="text" 
+            placeholder="Digite seu nome"
+            className="w-full bg-gray-50 border border-gray-300 focus:border-blue-500 rounded px-3 py-3 text-lg text-gray-800 placeholder-gray-300 focus:outline-none" 
+          />
+
+          <input 
+            type="text" 
+            placeholder="Digite seu nome"
+            className="w-full bg-gray-50 border border-gray-300 focus:border-blue-500 focus:ring-2 focus:ring-blue-500 focus:ring-opacity-20 rounded px-3 py-3 text-lg text-gray-800 placeholder-gray-300 focus:outline-none" 
+          />
+
+          <input 
+            type="text" 
+            placeholder="Digite seu nome com transition"
+            className="w-full bg-gray-50 border border-gray-300 focus:border-blue-500 focus:ring-2 focus:ring-blue-500 focus:ring-opacity-20 rounded px-3 py-3 text-lg text-gray-800 placeholder-gray-300 focus:outline-none transition duration-200 ease-in-out" 
+          />
+        </div>
+      </div>
+      <div>
+        <h6 className="font-bold mb-2">Componente Badge/Tag</h6>
         <div className="mb-2">
           <div className="inline-flex item-center text-sm bg-green-100 px-1.5 py-0.5 rounded-md text-green-800 font-medium">
             Ativo
