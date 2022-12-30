@@ -1,7 +1,27 @@
+import Link from "next/link";
+
 export default function Home() {
   return (
     <>
       <div className="bg-gray-50 container mx-auto px-4 py-8 space-y-8">
+      <div>
+        <h6 className="font-bold mb-2">Componente Dropdown</h6>
+        <div className="relative">
+        <button className="flex items-center bg-white border border-gray-300 focus:border-blue-500 rounded px-3 py-1 text-sm text-gray-800 placeholder-gray-300 focus:outline-none shadow">
+          Botão
+          <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="w-4 h-4 ml-2">
+            <path strokeLinecap="round" strokeLinejoin="round" d="M19.5 8.25l-7.5 7.5-7.5-7.5" />
+          </svg>
+        </button>
+          <div className="relative bg-white border border-gray-300 py-1 shadow-md rounded-md">
+            <Link href="" className="block text-sm text-gray-500 px-3 py-1 bg-white hover:bg-gray-300">Link 1</Link>
+            <Link href="" className="block text-sm text-gray-500 px-3 py-1 bg-white hover:bg-gray-300">Link 2</Link>
+            <Link href="" className="block text-sm text-gray-500 px-3 py-1 bg-white hover:bg-gray-300">Link 3</Link>
+            <Link href="" className="block text-sm text-gray-500 px-3 py-1 bg-white hover:bg-gray-300">Link 4</Link>
+            <Link href="" className="block text-sm text-gray-500 px-3 py-1 bg-white hover:bg-gray-300">Link 5</Link>
+          </div>
+        </div>
+      </div>
       <div>
         <h6 className="font-bold mb-2">Componente Input</h6>
         <div className="space-y-4">
