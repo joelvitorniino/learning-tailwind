@@ -34,7 +34,7 @@ export default function Home() {
           <input 
             type="text" 
             placeholder="Digite seu nome"
-            className="w-full bg-gray-50 border border-gray-300 focus:border-blue-500 rounded px-3 py-2 text-base text-gray-800 placeholder-gray-300 focus:outline-none" 
+             
           />
 
           <input 
